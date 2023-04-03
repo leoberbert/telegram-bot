@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro de Plantonista - Sucesso</title>
+    <style>
+        /* Adicione aqui o CSS solicitado */
+        body {
+            background-color: #F5F5F5;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .card {
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 32px;
+            margin-top: 0;
+        }
+        p {
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px 30px;
+            background-color: #008CBA;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Cadastro realizado com sucesso!</h1>
+            <p>Plantonista {{ plantonista }} cadastrado para a data {{ data }}</p>
+            <a href="{{ url_for('cadastro_plantonista') }}"><button>Voltar</button></a>
+        </div>
+    </div>
+</body>
+</html>

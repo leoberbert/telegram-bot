@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Plantonista</title>
+    <style>
+        body {
+            background-color: #fff;
+            color: #333;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #0072c6;
+            font-size: 2.5em;
+            margin-top: 70px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        form {
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 400px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"], input[type="date"] {
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            padding: 10px;
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            background-color: #0072c6;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 20px;
+            padding: 10px;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #005b9e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro de Plantonista</h1>
+    <form action="/plantao" method="POST">
+        <label for="plantonista">Plantonista:</label>
+        <input type="text" name="plantonista" id="plantonista"><br><br>
+        <label for="data">Data:</label>
+        <input type="date" name="data" id="data" pattern="\d{4}-\d{2}-\d{2}"><br><br>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
