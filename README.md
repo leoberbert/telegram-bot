@@ -36,4 +36,13 @@ python3 show_cadastro.py
 ('Joao', '2023-04-03')
 ```
 
+Agora iremos iniciar o boot para que possamos interagir com ele:
 
+OBS: Será necessário subistituir no código, o bloco abaixo adicionando o token do seu bot que você obteve após criação do mesmo no **@BotFather**.
+
+![image](https://user-images.githubusercontent.com/16724862/229545258-e39df035-5f88-4502-b3e2-c60f7ec04a84.png)
+
+
+```
+python3 boot.py
+```
