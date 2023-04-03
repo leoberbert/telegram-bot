@@ -1,5 +1,15 @@
 # telegram-bot
 
+### Pré-Requisitos:
+
+Python >= 3.7
+
+Instalar as bibliotecas do arquivo requirements.txt :
+
+```
+pip3 install -r requirements.txt
+```
+
 Este simples código lhe ajudará a implementar um simples bot para telegram que retornará a escala de plantão cadastrada.
 
 Primeiramente será necessário criarmos a base de dados onde serão armazenados os plantonistas, para isso execute o código abaixo que criará o arquivo plantao.db:
@@ -46,3 +56,11 @@ OBS: Será necessário subistituir no código, o bloco abaixo adicionando o toke
 ```
 python3 boot.py
 ```
+
+Agora iremos interagir com nosso bot e vermos o que ele nos retorna.
+
+![image](https://user-images.githubusercontent.com/16724862/229546068-abaca108-ddfa-43bd-9b1d-53f3205eec87.png)
+
+Este foi um exemplo de um bot simples no telegram.
+
+[]'s leoberbert
