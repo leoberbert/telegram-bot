@@ -3,6 +3,8 @@
 ### Pré-Requisitos:
 
 Python >= 3.7
+Módulo sqlite3
+Ter um bot criado no Telegram através do **@BotFather** pois precisaremos do token criado.
 
 Instalar as bibliotecas do arquivo requirements.txt :
 
